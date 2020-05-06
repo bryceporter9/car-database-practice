@@ -1,0 +1,27 @@
+<!--Change Rental Rates Page-->
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Rental Rates Change Page</title>
+	</head>
+	<body>
+		<h1>Rental Rate Change</h1>
+			<form><button formaction="index.php" name="Home Page Button">Home</button></form>
+				<br>
+		<h2>Enter the changes below</h2>
+			<form action="rate_change.php" method="post">
+				Vehicle Type: <input type="text" name="V_Type" id="V_Type">
+					Please enter either of these types: Truck, SUV, Medium, Large or VAN.
+					<br>
+				Weekly Rate: <input type="text" name="Weekly" id="Weekly">
+					You must enter a value. Please enter it in this format xxx.xx
+					<br>
+				Daily Rate: <input type="text" name="Daily" id="Daily">
+					You must enter a value. Please enter it in this format xxx.xx
+					<br>
+				<input type="submit" name="Submit Button">
+			</form>
+	</body>
+</html>
