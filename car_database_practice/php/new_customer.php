@@ -1,7 +1,3 @@
-<!--Created by: Bryce Porter, Tim Frymire, Kendra Kabel-->
-<!--May 5, 2020-->
-<!--Homework 2-->
-<!--Status:Runs successfully; fully functional-->
 <!--New Customer php page-->
 <!DOCTYPE php>
 <html lang="eng">
