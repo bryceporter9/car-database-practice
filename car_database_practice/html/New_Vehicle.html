@@ -1,0 +1,32 @@
+<!--Created by: Bryce Porter, Tim Frymire, Kendra Kabel-->
+<!--May 5, 2020-->
+<!--Homework 2-->
+<!--Status:Runs successfully; fully functional-->
+<!--Add Car Page-->
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Add Car Page</title>
+	</head>
+	<body>
+		<h1>Add Vehicle</h1>
+			<!--form with button to redirect to home page-->
+			<form><button formaction="index.php" name="Home Page Button">Home</button></form>
+				<br>
+		<h2>Enter Vehicle Informtion</h2>
+			<!--form with submit button to post input on new vehicle php page-->
+			<form action="new_vehicle.php" method="post">
+				Vehicle ID: <input type="text" name="V_ID" id="V_ID"> 
+					<br>
+				Type: <input type="text" name="V_Type" id="V_Type">(Please enter an integer value: Compact(1), Medium(2), Large(3), SUV(4), Truck(5), Van(6))
+					<br>
+				Model: <input type="text" name="V_Model" id="V_Model">
+					<br>
+				Year: <input type="text" name="V_Year" id="V_Year">
+					<br>
+				<input type="submit" name="Submit Button">
+			</form>
+	</body>
+</html>

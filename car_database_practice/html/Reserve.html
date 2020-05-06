@@ -1,0 +1,31 @@
+<!--Reserve A Car Page-->
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Reserve A Car Page</title>
+	</head>
+	<body>
+		<h1>Reserve A Car</h1>
+			<form><button formaction="index.php" name="Home Page Button">Home</button></form>
+				<br>
+				<p>If you do not yet have an account, please select the button below to add a new customer.</p>
+			<form><button formaction="Add_Customer.html" name="New Customer Button">Add Customer</button></form>
+				<br>
+		<h2>Enter the reservation information below</h2>
+			<form action="new_reservation.php" method="post">
+				Car Type: <input type="text" name="C_Type" id="C_Type">
+					<br>
+				Start Date: <input type="text" name="Start_Date" id="Start_Date">
+				(Please enter the date in this format YYYY-MM-DD)
+					<br>
+				Returning Date: <input type="text" name="Return_Date" id="Return_Date">
+				(Please enter the date in this format YYYY-MM-DD)
+					<br>
+				Customer Name: <input type="text" name="Name" id="Name">
+					<br>
+				<input type="submit" name="Submit Button">
+			</form>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!--Created by: Bryce Porter, Tim Frymire, Kendra Kabel-->
+<!--May 5, 2020-->
+<!--Homework 2-->
+<!--Status:Runs successfully; fully functional-->
+<!--Add Customer Page-->
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Add Customer Page</title>
+	</head>
+	<body>
+		<h1>Add Customer</h1>
+			<!--form with button to redirect to home page-->
+			<form><button formaction="index.php" name="Home Page Button">Home</button></form>
+				<br>
+			<!--form with submit buttion to post on new customer php page-->
+			<form action="new_customer.php" method="post">
+				Name: <input type="text" name="Name" id="Name">
+					<br>
+				Phone: <input type="text" name="Phone" id="Phone">
+					<br>
+				Customer ID: <input type="text" name="C_ID" id="C_ID">
+					<br>
+				<input type="submit" name="Submit Button">
+			</form>
+	</body>
+</html>
